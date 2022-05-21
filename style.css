@@ -1,0 +1,101 @@
+html{
+      background-image: linear-gradient(to right top, #04517a, #006387, #007690, #008893, #069993);
+  }
+  body{
+      font-family: 'Poppins', sans-serif;
+      display: grid;
+      place-content: center;
+      width: 100%;
+  }
+  span{
+      color: red;
+  }
+  h1{
+      color: aliceblue;
+  }
+  .container{
+      font-family: 'Poppins', sans-serif;
+      display: grid;
+      place-content: center;
+      background: rgba(204, 18, 55, 0.856);
+      /* width: 100%; */
+      margin-bottom: 10px;
+      padding: 20px;
+      border-radius: 15px;
+  }
+  form{
+      background: rgba(255, 255, 255, 0.808);
+      padding: 10px 50px;
+      border-radius: 15px;
+  }
+  button{
+      font-family: 'Poppins', sans-serif;
+      padding: 5px;
+      background: rgb(255, 86, 120);
+      color: aliceblue;
+      width: 45%;
+      border: 0px;
+      border-radius: 10px;
+      border-bottom: 2px solid crimson;
+      border-left: 2px solid crimson;
+  }
+  .link{
+      font-size: medium;
+      color: rgb(255, 115, 0);
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      flex-direction: column;
+      background: #aaaaaa;
+      padding: 10px;
+      margin:none;
+  }
+  .list{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      background-color: rgb(195, 255, 255);
+      padding: 10px;
+      border-radius: 20px;
+      margin-bottom: 10px;
+  }
+  ol.a {
+      list-style-type: lower-alpha;
+  }
+  ul.sh{
+      list-style-type: circle;
+  }
+  .highlight{
+      font-size: 30px;
+      padding: 5px;
+      text-align: center;
+  }
+.magOzine{
+      background: white;
+      margin: 5px;
+      border : 2px solid black;
+      padding: 10px;
+  }
+.sub{
+      background-color: red;
+      color: white;
+      text-align: center;
+}
+.bor{
+      border: none;
+      border-bottom: 1px solid black;
+}
+.name{
+      display: flex;
+      justify-content: space-between;
+}
+.add{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+}
+.csz{
+      display: flex;
+      justify-content: space-between;
+}
